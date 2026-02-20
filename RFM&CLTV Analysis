@@ -1,0 +1,134 @@
+############################################################
+# 📊 Customer Lifetime Value (CLTV) — Müşteri Yaşam Boyu Değeri
+############################################################
+
+## 🔎 CLTV Nedir?
+
+Customer Lifetime Value (CLTV), bir müşterinin bir şirketle kurduğu ilişki süresi boyunca
+şirkete kazandırdığı toplam parasal değeri ifade eder.
+
+Başka bir ifadeyle:
+
+Bir müşteriyle kurulan ilişkinin ömrü boyunca elde edilecek gelirlerin,
+o müşteriyi elde tutma maliyetleri düşüldükten sonra kalan net kazancı temsil eder.
+
+CLTV, müşteri odaklı stratejilerin temel yapı taşlarından biridir.
+
+---
+
+## 🎯 CLTV Neden Önemlidir?
+
+Müşterilerin yaşam boyu değerini hesapladığımızda, onların bizimle kuracakları ilişki süresince
+şirkete bırakacakları toplam değeri tahmin etmiş oluruz.
+
+Bu bilgi işletmeler için kritiktir çünkü:
+
+1. Müşteri ilişkilerini daha etkili şekilde yönetmemizi sağlar.
+2. Orta ve uzun vadeli stratejilerde müşteri odaklı ve katma değerli bir yaklaşım sunar.
+3. Pazarlama bütçelerinin daha doğru planlanmasına yardımcı olur.
+4. Yüksek değerli müşterilere öncelik verilmesini sağlar.
+5. Kaybedilme riski olan ancak potansiyel değeri yüksek müşterilerin erken tespit edilmesine olanak tanır.
+
+---
+
+## ⚖️ CLTV Hesaplama ve CLTV Tahmini Arasındaki Fark
+
+Dikkat edilmesi gereken önemli bir nokta vardır:
+
+CLTV’nin hesaplanması ile CLTV’nin tahmin edilmesi farklı kavramlardır.
+
+### 🔹 CLTV Hesaplama
+Geçmiş verilere dayanarak mevcut müşterilerin yaşam boyu değerini bulmaktır.
+Mevcut performansın ölçümünü sağlar.
+
+### 🔹 CLTV Tahmini (Prediction)
+Gelecekteki müşteri davranışlarını modelleyerek potansiyel CLTV değerlerini öngörmektir.
+Makine öğrenmesi ve olasılıksal modeller içerir (BG/NBD, Gamma-Gamma vb.).
+
+---
+
+## 📐 CLTV Hesaplama Formülleri
+
+### 1️⃣ Customer Value
+
+Customer Value = Average Order Value × Purchase Frequency
+
+---
+
+### 2️⃣ Average Order Value (AOV)
+
+Average Order Value = Total Revenue / Total Transaction
+
+---
+
+### 3️⃣ Purchase Frequency
+
+Purchase Frequency = Total Transaction / Total Number of Customers
+
+---
+
+### 4️⃣ Churn Rate
+
+Churn Rate = 1 - Repeat Rate
+
+Repeat Rate = Repeat Customers / Total Customers
+
+---
+
+### 5️⃣ Profit Margin
+
+Profit Margin = Total Revenue × Profit Margin Rate  
+(Genellikle %5 - %20 arası varsayılır)
+
+---
+
+### 6️⃣ CLTV Formülü
+
+CLTV = (Customer Value / Churn Rate) × Profit Margin
+
+Bu formül geçmiş verilere dayalı basit CLTV hesaplamasıdır.
+
+---
+
+## 🧩 CLTV ile Müşteri Segmentasyonu
+
+Her müşteri için hesaplanan CLTV değerleri sıralanır ve belirli eşik değerlerine göre gruplandırılır.
+
+Örneğin:
+
+- 🟢 Yüksek Değerli Müşteriler
+- 🟡 Orta Değerli Müşteriler
+- 🔴 Düşük Değerli Müşteriler
+
+Bu segmentasyon sayesinde:
+
+- VIP müşterilere özel kampanyalar yapılabilir.
+- Orta segment müşteriler yukarı taşınabilir.
+- Düşük segment müşteriler için maliyet optimizasyonu sağlanabilir.
+
+---
+
+## 🚀 CLTV'nin İşletmeye Katkısı
+
+CLTV analizi sayesinde:
+
+- Pazarlama bütçesi daha verimli kullanılır.
+- Reklam harcamaları optimize edilir.
+- Müşteri edinme maliyeti (CAC) kontrol altında tutulur.
+- Uzun vadeli gelir tahmini yapılabilir.
+- Şirket değeri artırılabilir.
+
+---
+
+## 💡 Sonuç
+
+CLTV, müşteri değerini sadece bugünkü işlem bazında değil,
+uzun vadeli ilişki perspektifiyle değerlendirmeyi sağlar.
+
+Bu yaklaşım, işletmelerin:
+
+- Daha stratejik,
+- Daha kârlı,
+- Daha sürdürülebilir
+
+kararlar almasına yardımcı olur.
