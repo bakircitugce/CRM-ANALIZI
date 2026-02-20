@@ -1,0 +1,117 @@
+# 📈 Customer Lifetime Value Prediction (CLTV)
+
+## 🔍 Müşteri Yaşam Boyu Değeri Tahmini Nedir?
+
+Customer Lifetime Value Prediction (CLTV Prediction), geçmiş müşteri davranışlarını analiz ederek bir müşterinin gelecekte şirkete sağlayacağı potansiyel değeri tahmin etmeyi amaçlayan veri odaklı bir yaklaşımdır.
+
+Bu yöntem; istatistiksel modeller ve makine öğrenmesi algoritmaları kullanarak:
+
+- Gelecekteki satın alma olasılığını
+- İşlem sıklığını
+- Ortalama harcama tutarını
+- Beklenen kârlılığı
+
+öngörmeyi hedefler.
+
+---
+
+## 🎯 CLTV Prediction Neden Önemlidir?
+
+Müşteri yaşam boyu değerinin tahmini, işletmelere geleceğe yönelik stratejik kararlar alma imkânı sunar.
+
+### Sağladığı Avantajlar:
+
+- En yüksek potansiyele sahip müşterilerin belirlenmesi
+- Pazarlama bütçesinin doğru hedef kitleye yönlendirilmesi
+- Gelir tahminlerinin daha isabetli yapılması
+- Müşteri sadakati ve elde tutma stratejilerinin güçlendirilmesi
+
+---
+
+## 🧮 CLTV Prediction Formülleri
+
+### 1️⃣ Temel CLTV Formülü
+
+CLTV = (Customer Value / Churn Rate) × Profit Margin
+
+### 2️⃣ Customer Value Hesabı
+
+Customer Value = Purchase Frequency × Average Order Value
+
+### 3️⃣ Tahmine Dayalı CLTV Modeli
+
+CLTV = Expected Number of Transactions × Expected Average Profit
+
+### 4️⃣ İleri Seviye Modelleme
+
+CLTV = BG/NBD Model × Gamma-Gamma Model
+
+- BG/NBD Modeli: Beklenen işlem sayısını tahmin eder.
+- Gamma-Gamma Modeli: Beklenen ortalama kazancı tahmin eder.
+
+---
+
+## 🛠️ CLTV Prediction Yöntemleri
+
+### 1️⃣ Kural Tabanlı Yaklaşımlar (Heuristics)
+
+- Geçmiş satın alma sıklığı
+- Ortalama harcama tutarı
+- Son alışveriş zamanı
+
+Basit, açıklayıcı ve hızlı uygulanabilir yöntemlerdir.
+
+---
+
+### 2️⃣ İstatistiksel Modeller
+
+- BG/NBD (Beta-Geometric / Negative Binomial Distribution)
+- Gamma-Gamma Submodel
+
+Bu iki model birlikte kullanılarak daha güvenilir tahmini CLTV hesaplanır.
+
+---
+
+### 3️⃣ Makine Öğrenmesi Yaklaşımları
+
+- Linear Regression
+- Random Forest
+- XGBoost
+- Neural Networks
+
+Daha karmaşık veri yapılarında daha yüksek doğruluk sağlar.
+
+---
+
+## 📊 Örnek Hesaplama
+
+Örnek veriler:
+
+- Purchase Frequency = 3
+- Average Order Value = 150
+- Churn Rate = 0.25
+- Profit Margin = 0.10
+
+Hesaplama:
+
+Customer Value = 3 × 150 = 450  
+CLTV = (450 / 0.25) × 0.10 = 180  
+
+Bu müşterinin tahmini yaşam boyu değeri (CLTV) **180 birimdir**.
+
+---
+
+## 🚀 CLTV Prediction ile Elde Edilen Kazanımlar
+
+- Kârlılığı yüksek müşteri segmentlerinin belirlenmesi
+- Müşteri kaybı (churn) riskinin erken tespiti
+- Müşteri sadakati programlarının optimize edilmesi
+- Gelir tahminlerinin stratejik planlamaya entegre edilmesi
+
+---
+
+## 📌 Sonuç
+
+CLTV Prediction, işletmelere sadece geçmiş performansı anlamakla kalmayıp, gelecekteki müşteri davranışlarını da öngörme gücü kazandırır.
+
+Böylece müşteri ilişkileri yönetimi veri odaklı, proaktif ve sürdürülebilir hale gelir.
